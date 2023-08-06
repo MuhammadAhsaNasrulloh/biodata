@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: sans-serif;
+    height: 1000vh;
+}
+
+main{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+section{
+    font-weight: bold;
+    font-size: 21px;
+    margin-left: 5%;
+    margin-top: 3rem;
+}
+
+section ul li{
+    display: flex;
+    margin-top: 10px;
+}
+
+section ul li p:nth-child(1){
+    width: 300px;
+}
+
+/* header */
+header{
+    align-items: center;
+    text-align: center;
+}
+
+.biodata, ul{
+    font-weight: 400;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+/* Jadwal Card */
+.card{
+    align-items: start;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 425px;
+}
+
+.jadwal .card1{
+    flex-direction: column;
+    width: 200px;
+    background-color: #222;
+    color: white;
+    padding: 65px;
+    border-radius: 15px;
+    margin: 15px;
+    height: 400px;
+}
+
+.jadwal .card1 ul li{
+    font-size: 15px;
+    list-style: none;
+    text-align: center;
+}
+.jadwal .card2{
+    flex-direction: column;
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding: 65px;
+    border-radius: 15px;
+    margin: 15px;
+    height: 400px;
+}
+
+.jadwal .card2 ul li{
+    font-size: 15px;
+    list-style: none;
+    text-align: center;
+}
+.jadwal .card3{
+    flex-direction: column;
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding: 65px;
+    border-radius: 15px;
+    margin: 15px;
+    height: 400px;
+}
+
+.jadwal .card3 ul li{
+    font-size: 15px;
+    list-style: none;
+}
+.jadwal .card4{
+    flex-direction: column;
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding: 65px;
+    border-radius: 15px;
+    margin: 15px;
+    height: 400px;
+}
+
+.jadwal .card4 ul li{
+    font-size: 15px;
+    list-style: none;
+}
+.jadwal .card5{
+    flex-direction: column;
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding: 65px;
+    border-radius: 15px;
+    margin: 15px;
+    height: 400px;
+}
+
+.jadwal .card5 ul li{
+    font-size: 15px;
+    list-style: none;
+    text-align: center;
+}
+.jadwal .card6{
+    flex-direction: column;
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding: 65px;
+    border-radius: 15px;
+    margin: 15px;
+    height: 400px;
+}
+
+.jadwal .card6 ul li{
+    font-size: 15px;
+    list-style: none;
+    text-align: center;
+}
